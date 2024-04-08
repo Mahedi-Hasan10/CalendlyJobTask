@@ -5,6 +5,7 @@ import Hero2 from "./components/hero2";
 import Hero3 from "./components/hero3";
 import FeatureHero from "./components/featureHero";
 import StoryHero from "./components/storyHero";
+import SecureConnection from "./components/secureConnection";
 function App() {
   return (
     <section>
@@ -62,6 +63,7 @@ function App() {
         reverse="md:flex-row"
       />
       <StoryHero />
+      <SecureConnection />
       <Footer />
     </section>
   );
